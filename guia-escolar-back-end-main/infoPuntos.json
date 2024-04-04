@@ -1,0 +1,101 @@
+{
+  "tarjetas": [
+    {
+      "id": "1",
+      "propiedades": {
+        "nombre": "Tarjeta 1",
+        "modelo": "ESP32",
+        "decripcion": "En la entrada itesa",
+        "fecha": "2022-11-10",
+        "estado": "0",
+        "ubicacion": {
+          "latitud": "19.728396",
+          "longitud": "-98.467776",
+          "descripcion": "En la entrada de itesa a un costado de la caseta"
+        },
+        "codigo": "TODO agregar codigo cpp"
+      },
+      "ultimaConsulta": "2022-11-10T22:26:11.787Z"
+    },
+    {
+      "id": "2",
+      "propiedades": {
+        "nombre": "Tarjeta 2",
+        "modelo": "ESP32",
+        "decripcion": "Tarjeta en edificio a",
+        "fecha": "2022-11-10",
+        "estado": "0",
+        "ubicacion": {
+          "latitud": "19.7292825",
+          "longitud": "-98.4675547",
+          "descripcion": "En la entrada del edificio A"
+        },
+        "codigo": "TODO agregar codigo cpp"
+      },
+      "ultimaConsulta": "2022-11-10T22:15:32.272Z"
+    },
+    {
+      "id": "3",
+      "propiedades": {
+        "nombre": "Tarjeta 3",
+        "modelo": "ESP32",
+        "decripcion": "En las bancas del edificio E",
+        "fecha": "2022-11-10",
+        "estado": "0",
+        "ubicacion": {
+          "latitud": "19.7297875",
+          "longitud": "-98.4664758",
+          "descripcion": "En la entrada del edificio E"
+        },
+        "codigo": "TODO agregar codigo cpp"
+      }
+    },
+    {
+      "id": "4",
+      "propiedades": {
+        "nombre": "Tarjeta 4",
+        "modelo": "ESP32",
+        "decripcion": "En el edificio 3",
+        "fecha": "2022-11-10",
+        "estado": "0",
+        "ubicacion": {
+          "latitud": "19.7298879",
+          "longitud": "-98.4662512",
+          "descripcion": "En la entrada del edificio E"
+        },
+        "codigo": "TODO agregar codigo cpp"
+      },
+      "ultimaConsulta": "2022-11-10T22:22:37.743Z"
+    }
+  ],
+  "rutas": [
+    {
+      "id": "1",
+      "propiedades": {
+        "nombre": "Ruta a edificio E",
+        "descripcion": "Ruta hacia edificio E ",
+        "fecha": "10/11/2022",
+        "numeroPuntos": 3,
+        "puntosLista": [
+          ["1", "IZQ"],
+          ["2", "IZQ"],
+          ["3", "DER"]
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "propiedades": {
+        "nombre": "A edificio e",
+        "descripcion": "Prueba",
+        "fecha": "10/11/2022",
+        "numeroPuntos": 3,
+        "puntosLista": [
+          ["1", "IZQ"],
+          ["2", "IZQ"],
+          ["4", "DER"]
+        ]
+      }
+    }
+  ]
+}
